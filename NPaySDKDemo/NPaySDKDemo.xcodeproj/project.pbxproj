@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B31867C829078724009E6B00 /* Pods_NPaySDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B31867C729078724009E6B00 /* Pods_NPaySDKDemo.framework */; };
+		FA33207D2952C5C5000C40C8 /* NPayFramework.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA33207C2952C5C5000C40C8 /* NPayFramework.xcframework */; };
+		FADE61EC28A3C59400D69BB8 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE61EA28A3C59400D69BB8 /* TestViewController.swift */; };
+		FADE61ED28A3C59400D69BB8 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADE61EB28A3C59400D69BB8 /* TestViewController.xib */; };
+		FAF6D339285660280042C8B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6D338285660280042C8B7 /* AppDelegate.swift */; };
+		FAF6D33D285660280042C8B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6D33C285660280042C8B7 /* ViewController.swift */; };
+		FAF6D340285660280042C8B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF6D33E285660280042C8B7 /* Main.storyboard */; };
+		FAF6D3422856602A0042C8B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF6D3412856602A0042C8B7 /* Assets.xcassets */; };
+		FAF6D3452856602A0042C8B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF6D3432856602A0042C8B7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B31867C729078724009E6B00 /* Pods_NPaySDKDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_NPaySDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B771D02768E8ABF3C330A005 /* Pods-NPaySDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPaySDKDemo.release.xcconfig"; path = "Target Support Files/Pods-NPaySDKDemo/Pods-NPaySDKDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D51AA8DC2DA8541BECFB384B /* Pods-NPaySDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NPaySDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-NPaySDKDemo/Pods-NPaySDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FA33207C2952C5C5000C40C8 /* NPayFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NPayFramework.xcframework; sourceTree = "<group>"; };
+		FA4CBBB6291E0847009F185C /* NPayFramework.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = NPayFramework.xcframework; path = ../NPayFramework/NPayFramework.xcframework; sourceTree = "<group>"; };
+		FADE61EA28A3C59400D69BB8 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		FADE61EB28A3C59400D69BB8 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		FAF6D335285660280042C8B7 /* NPaySDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPaySDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF6D338285660280042C8B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF6D33C285660280042C8B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF6D33F285660280042C8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF6D3412856602A0042C8B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF6D3442856602A0042C8B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF6D3462856602A0042C8B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF6D332285660280042C8B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA33207D2952C5C5000C40C8 /* NPayFramework.xcframework in Frameworks */,
+				B31867C829078724009E6B00 /* Pods_NPaySDKDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E79EFE8E1511246D9588A15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA4CBBB6291E0847009F185C /* NPayFramework.xcframework */,
+				B31867C729078724009E6B00 /* Pods_NPaySDKDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43FED03E6D2594F651F83773 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D51AA8DC2DA8541BECFB384B /* Pods-NPaySDKDemo.debug.xcconfig */,
+				B771D02768E8ABF3C330A005 /* Pods-NPaySDKDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAF6D32C285660280042C8B7 = {
+			isa = PBXGroup;
+			children = (
+				FA33207C2952C5C5000C40C8 /* NPayFramework.xcframework */,
+				FAF6D337285660280042C8B7 /* NPaySDKDemo */,
+				FAF6D336285660280042C8B7 /* Products */,
+				43FED03E6D2594F651F83773 /* Pods */,
+				0E79EFE8E1511246D9588A15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF6D336285660280042C8B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6D335285660280042C8B7 /* NPaySDKDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF6D337285660280042C8B7 /* NPaySDKDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6D338285660280042C8B7 /* AppDelegate.swift */,
+				FAF6D33C285660280042C8B7 /* ViewController.swift */,
+				FAF6D33E285660280042C8B7 /* Main.storyboard */,
+				FAF6D3412856602A0042C8B7 /* Assets.xcassets */,
+				FAF6D3432856602A0042C8B7 /* LaunchScreen.storyboard */,
+				FAF6D3462856602A0042C8B7 /* Info.plist */,
+				FADE61EA28A3C59400D69BB8 /* TestViewController.swift */,
+				FADE61EB28A3C59400D69BB8 /* TestViewController.xib */,
+			);
+			path = NPaySDKDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF6D334285660280042C8B7 /* NPaySDKDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF6D3492856602A0042C8B7 /* Build configuration list for PBXNativeTarget "NPaySDKDemo" */;
+			buildPhases = (
+				DFCB415D3FF9A86950FA0460 /* [CP] Check Pods Manifest.lock */,
+				FAF6D331285660280042C8B7 /* Sources */,
+				FAF6D332285660280042C8B7 /* Frameworks */,
+				FAF6D333285660280042C8B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPaySDKDemo;
+			productName = NPaySDKDemo;
+			productReference = FAF6D335285660280042C8B7 /* NPaySDKDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF6D32D285660280042C8B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					FAF6D334285660280042C8B7 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FAF6D330285660280042C8B7 /* Build configuration list for PBXProject "NPaySDKDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF6D32C285660280042C8B7;
+			productRefGroup = FAF6D336285660280042C8B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF6D334285660280042C8B7 /* NPaySDKDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF6D333285660280042C8B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF6D3452856602A0042C8B7 /* LaunchScreen.storyboard in Resources */,
+				FAF6D3422856602A0042C8B7 /* Assets.xcassets in Resources */,
+				FADE61ED28A3C59400D69BB8 /* TestViewController.xib in Resources */,
+				FAF6D340285660280042C8B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DFCB415D3FF9A86950FA0460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NPaySDKDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF6D331285660280042C8B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF6D33D285660280042C8B7 /* ViewController.swift in Sources */,
+				FADE61EC28A3C59400D69BB8 /* TestViewController.swift in Sources */,
+				FAF6D339285660280042C8B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAF6D33E285660280042C8B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF6D33F285660280042C8B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF6D3432856602A0042C8B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF6D3442856602A0042C8B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF6D3472856602A0042C8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAF6D3482856602A0042C8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF6D34A2856602A0042C8B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51AA8DC2DA8541BECFB384B /* Pods-NPaySDKDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34PG69G63Q;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 34PG69G63Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NPaySDKDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SDK9Pay;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdk.9pay.vn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "SDK Adhoc";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "SDK Dev";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FAF6D34B2856602A0042C8B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B771D02768E8ABF3C330A005 /* Pods-NPaySDKDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34PG69G63Q;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 34PG69G63Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NPaySDKDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SDK9Pay;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sdk.9pay.vn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "SDK Adhoc";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "SDK Dev";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF6D330285660280042C8B7 /* Build configuration list for PBXProject "NPaySDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF6D3472856602A0042C8B7 /* Debug */,
+				FAF6D3482856602A0042C8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF6D3492856602A0042C8B7 /* Build configuration list for PBXNativeTarget "NPaySDKDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF6D34A2856602A0042C8B7 /* Debug */,
+				FAF6D34B2856602A0042C8B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF6D32D285660280042C8B7 /* Project object */;
+}

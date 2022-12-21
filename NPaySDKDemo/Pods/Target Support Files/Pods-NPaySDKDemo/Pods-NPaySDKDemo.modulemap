@@ -1,0 +1,6 @@
+framework module Pods_NPaySDKDemo {
+  umbrella header "Pods-NPaySDKDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
